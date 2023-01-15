@@ -23,7 +23,7 @@ describe('Test With Page Objects', () =>{
 
      })
 
-     it('should submit Inline and Basic form and sleect tomorrow date in calendar', () => {
+     it('should submit Inline and Basic form and select tomorrow date in calendar', () => {
          navigateTo.formLayoutsPage()
          fillInForm.submitItems('Andrei', 'test@mail.com')
          fillInForm.submitBascicForm('test@test.com', 'password')
